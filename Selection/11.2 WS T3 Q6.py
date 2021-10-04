@@ -5,7 +5,7 @@ try:
 except ValueError:
     print('Invalid entry')
 else:
-    while True:
+    while True: ### SRC - I'm not sure why you need this and the break/continues? What are you trying to achieve?
         p_c = str(input('Proceed or cancel?'))
         if p_c[0].lower() == 'p':
             if str(input('Do you want to proceed? (y/n)'))[0].lower() == 'y':
