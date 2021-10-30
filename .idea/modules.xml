@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:/DESKTOP/Learn_pytorch/.idea/Learn_pytorch.iml" filepath="D:/DESKTOP/Learn_pytorch/.idea/Learn_pytorch.iml" />
+      <module fileurl="file://D:/DESKTOP/PyGame/.idea/PyGame.iml" filepath="D:/DESKTOP/PyGame/.idea/PyGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WangJ-Python.iml" filepath="$PROJECT_DIR$/.idea/WangJ-Python.iml" />
     </modules>
   </component>
