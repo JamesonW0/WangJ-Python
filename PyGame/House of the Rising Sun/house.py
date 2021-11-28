@@ -1,3 +1,5 @@
+### SRC - Great code
+
 import pygame
 import time
 
@@ -36,7 +38,7 @@ while not done:
         # Sun running
         pygame.draw.circle(screen, yellow, (sun_x, sun_y), 40, 0)
         sun_x += 1
-        sun_y = round((sun_x ** 2) * (9 / 5120) - (9 / 8) * sun_x + 240, 0)
+        sun_y = int(round((sun_x ** 2) * (9 / 5120) - (9 / 8) * sun_x + 240, 0))
     else:
         screen.fill(dark_blue)
         if start == 0:
@@ -48,7 +50,7 @@ while not done:
             start = 0
         # End if
     # End if
-    screen.blit(image, (220, 165))  # House
+    #screen.blit(image, (220, 165))  # House
     pygame.display.flip()  # flip the display
     clock.tick(180)  # tick the clock over
 # End while
