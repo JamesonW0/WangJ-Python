@@ -1,6 +1,5 @@
 import time
 
-
 def calc_fib(n_term):
     fibNumbers = [0, 1]
     for i in range(1, n_term):
